@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+}
+
+/* Body style */
+body {
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	padding: 0;
+	margin:0;
+	background-color: #f4f4f4;
+}
+
+/* Header/logo Title */
+header {
+	padding: 80px;
+	text-align: center;
+	background: url(../img/ai1.jpg) no-repeat center;
+	background-size: cover;
+	color: #fcfcfc;
+	min-height: 280px;
+	text-shadow: 2px 2px 4px black;
+}
+header h1{
+	font-size: 40px;
+}
+header p{
+	font-size: 20px;
+}
+
+/* Style the top navigation bar */
+nav {
+	overflow: hidden;
+	background-color: #323232;
+}
+
+/* Style the navigation bar links */
+nav a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 20px;
+	font-size: 18px;
+	text-decoration: none;
+	text-shadow: 2px 2px 4px black;
+}
+/* Right-aligned link */
+nav a.right {
+	float: right;
+}
+/* Current link */
+nav .current{
+	color: #32a0c2;
+	font-weight: bold;
+}
+/* Change color on hover */
+nav a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+
+/***** Column container ******/
+.row {  
+	display: flex;
+	flex-wrap: wrap;
+}
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+	flex: 30%;
+	background-color: #f1f1f1;
+	padding: 20px;
+}
+
+/* Main column */
+.main {   
+	flex: 70%;
+	background-color: white;
+	padding: 20px;
+}
+
+.myimg {
+	width: 100%;
+	padding: 20px;
+}
+footer{
+	padding: 20px;
+	text-align: center;
+	color: white;
+	background-color: #323232;
+	text-shadow: 2px 2px 4px black;
+}
+
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+	.row {   
+		flex-direction: column;
+	}
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 640px) {
+	nav a.right{
+		float: left;
+	}
+	nav a {
+		width: 100%;
+	}
+}
