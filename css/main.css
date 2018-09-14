@@ -15,7 +15,7 @@ body {
 header {
 	padding: 80px;
 	text-align: center;
-	background: url(../img/ai1.jpg) no-repeat center;
+	background: url(../img/Technology-Track.jpg) no-repeat center;
 	background-size: cover;
 	color: #fcfcfc;
 	min-height: 280px;
@@ -78,6 +78,10 @@ nav a:hover{
 	flex: 70%;
 	background-color: white;
 	padding: 20px;
+}
+.main h1{
+	font-size: 30px;
+	text-align: center;
 }
 
 /*** IMAGES ***/
