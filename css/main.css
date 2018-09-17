@@ -11,6 +11,9 @@ body {
 	background-color: #f4f4f4;
 }
 
+.main h1, .main h2{
+	text-shadow: 1px 1px 1px #32a0c2;
+}
 /* Header/logo Title */
 header {
 	padding: 80px;
@@ -72,7 +75,9 @@ nav a:hover{
 	background-color: #f1f1f1;
 	padding: 20px;
 }
-
+.side h2{
+	text-align: center;
+}
 /* Main column */
 .main {   
 	flex: 70%;
@@ -96,11 +101,18 @@ nav a:hover{
 }
 
 #me{
-	height: 200px;
+	height: 240px;
 	width: 200px;
 	border: 3px solid #323232;
-	border-radius: 100%;
-	padding: 0;
+	border-radius: 60%;
+	padding: 3px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto
+}
+
+.social{
+	text-align: center;
 }
 img{
 	width: 100%;
@@ -116,6 +128,35 @@ img{
 .readMore:hover{
 	background-color: #32a0c2;
 }
+/**** CV page *****/
+#meCV{
+	width: 60%;
+	height: 300px;
+}
+.w3-display-container h3{
+	text-align: center; 
+	width: 100%;
+	color: white;
+	text-shadow: 2px 2px 4px black;
+}
+.tabClass{
+	width: 100%
+}
+.w3-container i{
+	color: #32a0c2;
+}
+table {
+	border-collapse: collapse;
+	width: 80%;
+	/* margin: auto */
+}
+
+th, td {
+	padding: 6px;
+}
+tr:hover{
+	background-color: #dddddd;
+}
 footer{
 	padding: 20px;
 	text-align: center;
@@ -126,7 +167,16 @@ footer{
 
 
 /* Responsive layout - when the screen is less than 640px wide, make the two columns and navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 800px) {
+	#meCV{
+		width: 100%;
+	}
+	.w3-display-container h3{
+		width: 80%;
+	}
+}
+
+@media screen and (max-width: 600px) {
 	.row {   
 		flex-direction: column;
 	}
@@ -136,11 +186,38 @@ footer{
 	nav a {
 		width: 100%;
 	}
-	#me{
-		height: 150px;
-		width: 150px;
-	}
 	.side{
-		text-align: center
+		text-align: left;
+	}
+	#me{
+		float: left;
+		margin-right: 10px
+	}
+	.w3-display-container{
+		text-align: center; 
+		width: 60%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+			/* Add shadows to create "card" effect */
+		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	.w3-display-container h3{
+		text-align: center; 
+	}
+	.w3-display-container.tabClass{
+		text-align: center;
+		width: 100%; 
+	}
+	td,tr{
+		text-align: center;
+	}
+}
+
+/* Home page about section */
+@media screen and (max-width: 430px) {
+	#me{
+		float:none;
+		margin: auto;
 	}
 }
