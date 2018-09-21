@@ -11,7 +11,7 @@ body {
 	background-color: #f4f4f4;
 }
 
-.main h1, .main h2{
+.main h1, .main h2, #appBody h1{
 	text-shadow: 1px 1px 1px #32a0c2;
 }
 /* Header/logo Title */
@@ -23,6 +23,15 @@ header {
 	color: #fcfcfc;
 	min-height: 280px;
 	text-shadow: 2px 2px 4px black;
+	width: 100%;
+}
+header#cvHeader{
+	background: url(../img/cert.jpg) no-repeat center;
+	background-size: cover;
+	width: 100%;
+	color: black;
+	text-shadow: 2px 2px 4px white;
+
 }
 header h1{
 	font-size: 40px;
@@ -38,7 +47,7 @@ nav {
 }
 
 /* Style the navigation bar links */
-nav a {
+nav a{
 	float: left;
 	display: block;
 	color: white;
@@ -49,7 +58,7 @@ nav a {
 	text-shadow: 2px 2px 4px black;
 }
 /* Right-aligned link */
-nav a.right {
+nav a.right, .gitBtn a {
 	float: right;
 }
 /* Current link */
@@ -59,6 +68,7 @@ nav .current{
 }
 /* Change color on hover */
 nav a:hover{
+	/* background-color: #cccccc; */
 	color: #cccccc;
 	font-weight: bold;
 }
@@ -157,6 +167,7 @@ th, td {
 tr:hover{
 	background-color: #dddddd;
 }
+
 footer{
 	padding: 20px;
 	text-align: center;
@@ -168,8 +179,9 @@ footer{
 
 /* Responsive layout - when the screen is less than 640px wide, make the two columns and navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-	#meCV{
-		width: 100%;
+	header, #meCV{
+		/* width: 100%; */
+		padding: 5px,
 	}
 	.w3-display-container h3{
 		width: 80%;
@@ -194,20 +206,22 @@ footer{
 		margin-right: 10px
 	}
 	.w3-display-container{
-		text-align: center; 
-		width: 60%;
+		/* text-align: center;  */
+		/* float: left; */
+		width: 80%;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-			/* Add shadows to create "card" effect */
-		box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
 	.w3-display-container h3{
 		text-align: center; 
 	}
-	.w3-display-container.tabClass{
+	.w3-display-container table{
 		text-align: center;
 		width: 100%; 
+		border: 1px solid
+		/* Add shadows to create "card" effect */
+		/* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19); */
 	}
 	td,tr{
 		text-align: center;

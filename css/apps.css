@@ -1,0 +1,134 @@
+body#appBody{
+  background: white
+}
+.appContainer{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+div#appHeader{
+  background: url("../img/softwareheader1.jpg");
+  max-height: 500px;
+  padding: 0;
+}
+/*Responsive Image Gallery */
+
+div.gallery {
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+	transition: 0.3s;
+}
+
+div.gallery:hover {
+  border: 1px solid #32a0c2;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 280px;
+}
+
+div.desc {
+  padding: 0;
+  text-align: center;
+}
+
+/* * {
+  box-sizing: border-box;
+} */
+p.text{
+  font-size: 18px;
+}
+.lang {
+  color: grey;
+  font-size: 16px;
+}
+
+.gitBtn{
+  border: none;
+  outline: 0;
+  padding: 12px;
+  background-color: #212121;
+  width: 100%;
+  font-size: 18px;
+}
+
+.gitBtn a{
+	float: left;
+  display: block;
+  color: #32a0c2;
+	padding: 5px;
+	text-decoration: none;
+	text-shadow: 2px 2px 4px black
+}
+
+.gitBtn a.right{
+  float: right;
+}
+
+.gitBtn a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+.gitBtn a.disabled:hover{
+  font-weight: normal;
+  color: #32a0c2;
+  cursor: not-allowed;
+}
+.responsive {
+  padding: 10px 6px;
+  float: left;
+  width: 50%;
+}
+
+/* Sidebar */
+aside#sidebar{
+	float: right;
+	width: 30%;
+  padding: 5px;
+}
+aside#sidebar .contact input, aside#sidebar .contact textarea{
+	width: 90%;
+	padding: 5px;
+}
+aside#sidebar .imgs{
+	float: center;
+	width: 180px;
+	height: 180px
+}
+article#main-col{
+	float: left;
+	width: 65%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+      width: 100%;
+      margin: 10px 0;
+  }
+  	/* apps */
+	article#main-col,
+	aside#sidebar{
+			float: none;
+			text-align: center;
+			width: 100%;
+  }
+  .contact input,
+  .contact textarea,
+  .contact label{
+      width: 100%;
+      margin-bottom: 5px;
+    }
+}
+
+/* @media only screen and (max-width: 500px) {
+  .responsive {
+      width: 100%;
+  }
+} */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
