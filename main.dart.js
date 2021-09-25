@@ -60638,7 +60638,7 @@ s.toString}return L.lU(T.hY(H.a([C.Dg,b.P(r).f.a.a<=500?C.CW:C.iN],t.p),C.a9,C.V
 M.B6.prototype={
 J(a,b){return new D.rX(H.a([U.adU(" I develop frontend and backend of web and mobile apps.",C.ha),U.adU("  I create continuous integration and deployment pipelines.",C.ha),U.adU("  I am self motivated and team oriented.",C.ha)],t.u6),null)}}
 S.E1.prototype={
-J(a,b){var s=null,r=t.w,q=b.P(r).f.a.a<=500?2.5:3,p=M.atL(s,s,new L.o1("/images/background.jpeg",s,s)),o=M.ec(s,s,C.q,P.aB(168,25,25,35),s,s,s,s,s,s,s,s,s),n=t.p,m=H.a([L.cS("Discover Me!",s,s,b.P(r).f.a.a>=1024?K.at(b).V.c.I9(C.k,C.aJ):K.at(b).V.e.I9(C.k,C.aJ),s,s)],n)
+J(a,b){var s=null,r=t.w,q=b.P(r).f.a.a<=500?2.5:3,p=M.atL(s,s,new L.o1("assets/images/background.jpeg",s,s)),o=M.ec(s,s,C.q,P.aB(168,25,25,35),s,s,s,s,s,s,s,s,s),n=t.p,m=H.a([L.cS("Discover Me!",s,s,b.P(r).f.a.a>=1024?K.at(b).V.c.I9(C.k,C.aJ):K.at(b).V.e.I9(C.k,C.aJ),s,s)],n)
 if(!(b.P(r).f.a.a<=700))m.push(C.i8)
 m.push(C.wD)
 m.push(C.i9)
