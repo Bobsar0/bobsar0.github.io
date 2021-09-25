@@ -60713,7 +60713,7 @@ G.Rj.prototype={
 $0(){var s=0,r=P.W(t.H),q=this
 var $async$$0=P.S(function(a,b){if(a===1)return P.T(b,r)
 while(true)switch(s){case 0:s=2
-return P.a1(q.a.c.yD("./assets/files/resume.pdf","Resume - Steve Onyeneke"),$async$$0)
+return P.a1(q.a.c.yD("/assets/files/resume.pdf","Resume - Steve Onyeneke"),$async$$0)
 case 2:return P.U(null,r)}})
 return P.V($async$$0,r)},
 $S:13}
