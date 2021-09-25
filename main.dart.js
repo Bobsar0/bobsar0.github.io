@@ -60738,7 +60738,7 @@ J(a,b){var s=null
 return T.ff(H.a([C.h7,new T.cR(C.hc,L.cS("Frameworks",s,s,K.at(b).V.x,s,s),s),T.hY(C.Ei,C.a9,C.V,C.W)],t.p),C.aX,C.V,C.W)}}
 F.HF.prototype={
 J(a,b){var s=null
-return M.ec(s,V.agY(T.hY(H.a([C.cC,B.E6(s,G.adL("/icons/linkedin.svg"),24,new F.a2b(this,b),s),B.E6(s,G.adL("/icons/gitlab.svg"),24,new F.a2c(this,b),s),B.E6(s,G.adL("/icons/github.svg"),24,new F.a2d(this,b),s),C.cC],t.p),C.a9,C.V,C.W),C.eb,10),C.q,C.A5,s,s,s,s,C.CO,s,s,s,s)}}
+return M.ec(s,V.agY(T.hY(H.a([C.cC,B.E6(s,G.adL("/assets/icons/linkedin.svg"),24,new F.a2b(this,b),s),B.E6(s,G.adL("/assets/icons/gitlab.svg"),24,new F.a2c(this,b),s),B.E6(s,G.adL("/assets/icons/github.svg"),24,new F.a2d(this,b),s),C.cC],t.p),C.a9,C.V,C.W),C.eb,10),C.q,C.A5,s,s,s,s,C.CO,s,s,s,s)}}
 F.a2b.prototype={
 $0(){var s=0,r=P.W(t.H),q=this
 var $async$$0=P.S(function(a,b){if(a===1)return P.T(b,r)
